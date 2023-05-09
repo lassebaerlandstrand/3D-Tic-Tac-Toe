@@ -9,6 +9,8 @@ public class FrameRateController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.targetFrameRate = frameRate;
+        #if !UNITY_WEBGL
+            Application.targetFrameRate = frameRate;
+        #endif
     }
 }

@@ -9,7 +9,7 @@ public class SizeInitializer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI sizeDisplay;
     [SerializeField] private GameObject infoOptimization;
     public int maxDimensionSize = 12;
-    public int minDimensionSize = 1;
+    public int minDimensionSize = 2;
 
     private int size = 3;
     public int Size
@@ -25,6 +25,14 @@ public class SizeInitializer : MonoBehaviour
             sizeDisplay.SetText(size.ToString());
             infoOptimization.SetActive(size > GlobalVar.maxLayerOptimization);
         }
+    }
+
+
+    private void Awake()
+    {
+        #if UNITY_WEBGL
+            maxDimensionSize = 20;
+        #endif
     }
 
 }

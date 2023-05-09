@@ -2,15 +2,13 @@
 
 ### A Unity project made in 2022 where I created the classic game Tic-Tac-Toe in 3D
 
-### You can try the project on [my personal website](https://lasseprojects.netlify.app/3d%20tic%20tac%20toe/3dtictactoe)
+### You can try the project on [my personal website](https://lasseprojects.tech/3d-tic-tac-toe/3dtictactoe)
 
 <br />
 
 ## Description
 
-This Unity project is an extension of Tic-Tac-Toe into 3 dimensions. The game board consists of a cube, and the grid size can be set to any cube size between 2x2x2 and 25x25x25.
-
-This project is made with the classic combination of Unity and C#. The total lines of self written code adds up to 1900, which are divided into 29 unique scripts. The game is implemented into [my personal website](https://lasseprojects.netlify.app/3d%20tic%20tac%20toe/3dtictactoe) via WebGL.
+This Unity project is an extension of Tic-Tac-Toe into 3 dimensions. The game board consists of a cube, and the grid size can be set to any cube size between 2x2x2 and 25x25x25. This project is made with the classic combination of Unity and C#. The total lines of self written code adds up to 1900, which are divided into 29 unique scripts.
 
 ## Getting Started
 To get started with this project, follow the steps below:
