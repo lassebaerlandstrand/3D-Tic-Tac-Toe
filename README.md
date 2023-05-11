@@ -1,14 +1,14 @@
 # 3D-Tic-Tac-Toe
 
-### A Unity project made in 2022 where I created the classic game Tic-Tac-Toe in 3D
+### A Unity project made in 2022 where I created the classic game Tic-Tac-Toe in 3D.
 
-### You can try the project on [my personal website](https://lasseprojects.tech/3d-tic-tac-toe/3dtictactoe)
+### You can try out the project on [my personal website](https://lasseprojects.tech/3d-tic-tac-toe/3dtictactoe).
 
 <br />
 
 ## Description
 
-This Unity project is an extension of Tic-Tac-Toe into 3 dimensions. The game board consists of a cube, and the grid size can be set to any cube size between 2x2x2 and 25x25x25. This project is made with the classic combination of Unity and C#. The total lines of self written code adds up to 1900, which are divided into 29 unique scripts.
+This Unity project is an extension of Tic-Tac-Toe into 3 dimensions. The game board consists of a cube, and the grid size can be set to any cube size between 2x2x2 and 25x25x25. This project is made with the classic combination of Unity and C#. The total lines of self written code adds up to 1900, which are divided into 32 unique scripts.
 
 ## Getting Started
 To get started with this project, follow the steps below:
@@ -30,7 +30,8 @@ To get started with this project, follow the steps below:
 ### How to play
 * Choose the grid size you want to play with, then press "Start"
 * This game is played locally, so both players have to be on the same computer. Player 1 is the "X" player, and player 2 is the "O" player.
-* The game is played by clicking on the cube you want to place your mark on. The player who gets one of their marks in a row, column or diagonal wins the game.
+* The game is played by left clicking on the cube you want to place your mark on. The player who gets one of their marks in a row, column or diagonal wins the game.
+* The cube is rotated by holding down the right mouse button and moving the mouse.
 * If you want to select a cube which is not the outer layer, you can change the layer with the slider in the bottom left corner.
 
 <br />

@@ -2295,7 +2295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 6
   target: {fileID: 960862930}
-  zoomSensitivity: 2
+  zoomSensitivity: 1
   smoothTime: 0.15
 --- !u!114 &963194231
 MonoBehaviour:
@@ -3237,7 +3237,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

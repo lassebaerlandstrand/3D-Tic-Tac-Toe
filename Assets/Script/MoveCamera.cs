@@ -5,10 +5,10 @@ using UnityEngine;
 public class MoveCamera : MonoBehaviour
 {
 
-    [SerializeField] private float mouseSensitivity = 3f;
+    [SerializeField] private float mouseSensitivity = 6f;
     [SerializeField] private Transform target;
     private float distanceFromTarget;
-    [SerializeField] private float zoomSensitivity = 2f;
+    [SerializeField] private float zoomSensitivity = 1f;
 
     private float rotationX;
     private float rotationY;
@@ -46,14 +46,20 @@ public class MoveCamera : MonoBehaviour
             updatePosition();
         }
 
-
         // Zoom
         if(Input.GetAxis("Mouse ScrollWheel") != 0) {
-            distanceFromTarget -= Input.GetAxis("Mouse ScrollWheel") * zoomSensitivity;
+            distanceFromTarget -= Input.GetAxis("Mouse ScrollWheel") * getRelativeZoomSensitivity();
             distanceFromTarget = distanceFromTarget > 0f ? distanceFromTarget : 0;
             updatePosition();
         }
         
+    }
+
+    private float getRelativeZoomSensitivity()
+    {
+        // Based on regression from sample data
+        float distance = Vector3.Distance(target.position, gameObject.transform.position);
+        return (distance * 0.37f + 0.35f) * zoomSensitivity;
     }
 
     private bool compareVector3(Vector3 vectorA, Vector3 vectorB)
