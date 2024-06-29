@@ -2,7 +2,7 @@
 
 ### A Unity project made in 2022 where I created the classic game Tic-Tac-Toe in 3D.
 
-### You can try out the project on [my personal website](https://lasseprojects.tech/3d-tic-tac-toe/3dtictactoe).
+### You can try out the project on [my personal website](https://lasseprojects.me/3d-tic-tac-toe/3dtictactoe).
 
 <br />
 
